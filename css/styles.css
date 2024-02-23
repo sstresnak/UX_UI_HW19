@@ -1,0 +1,261 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+header {
+  background-color: #C3CFB8;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: "Krub", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.logo {
+  width: 23%;
+  padding: 1%;
+  text-align: left;
+}
+
+nav {
+  text-align: right;
+  padding: 1%;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+}
+nav ul {
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.heroImg {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 500px;
+padding: 50px 100px 30px;
+}
+.heroImg .content {
+width: 60%;
+} 
+.heroImg h1, .heroImg h3, .heroImg p {
+  margin: 0;
+}
+.heroImg h1 {
+  font-size: 96px;  
+  font-family: "Marcellus", serif;
+  color: white;
+}
+.heroImg h3 {
+  font-size: 20px;
+  font-family: 'Livvic', sans-serif;
+  font-style: italic;
+  color: white;
+}
+.heroImg p {
+  font-size: 16px;
+  font-family: 'Livvic', sans-serif;
+  font-style: normal;
+  color: white;
+}
+.heroImg .image img {
+  max-width: 60%;
+  height: auto;
+  display: block; 
+  margin: 0 auto; 
+}
+.heroImg img {
+max-width: 100%;
+}
+.image {
+height: 600px;
+}
+
+
+body {
+  background-color: #C3CFB8;
+}
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: 'Marcellus';
+    src: url('path/to/marcellus.woff2') format('woff2'),
+         url('path/to/marcellus.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+  background-color: #6F8F71;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px
+}
+button:hover {
+  background-color: #6F8F71; 
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.skillCard {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(30% - 10px); /* Adjust width to control spacing between skill cards */
+  margin-top: 30px; 
+  background-color: #FFF494;
+  padding: 20px;
+  margin-right: 20px;
+}
+.skillCard img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+}
+.skillCard h3 {
+  text-align: center;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+#mySkills .skillCard p {
+  text-align: left;
+  font-family: 'Livvic', sans-serif;
+}
+.skillContainer {
+  position: relative;
+}
+.skillContainer .semiCircle {
+  position: absolute;
+  top: -25px; /* Adjust the position to fit behind the skill cards */
+  left: 0;
+  width: 100%;
+  height: 80px; /* Adjust height to control the size of the semi-circle */
+  background-color: #FFF494; /* Background color of the semi-circle */
+  border-top-left-radius: 100%;
+  border-top-right-radius: 50%;
+  content: '9088';
+}
+#mySkills {
+  position: relative;
+  margin-bottom: 200px;
+  padding-left: 50px;
+}
+.skillCard:nth-child(1) {
+  left: 10%;
+  padding-left: 20px;
+}
+.skillCard:nth-child(2) {
+  margin-top: 70px; 
+}
+.skillCard:nth-child(3) {
+  margin-top: 150px; 
+}
+
+#myWork-Grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px auto;
+  gap: 20px;
+  text-align: center;
+  background-color: #6F8F71;
+  padding-top: 100px;
+  font-family: 'Livvic', sans-serif;
+  color: #493500;
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  width: 850px; /* Set a specific width */
+  height: 350px; /* Set a specific height */
+  background-color: #FFF494; /* Add a background color */
+  padding: 20px;
+  border-radius: 10px; 
+}
+.project-card img {
+  max-width: 100%;
+}
+.project--details {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;  
+}
+#view-all-button {
+  background-color: #C3CFB8; /* Set the background color */
+  color:black; 
+  border: 2px solid #6F8F71; 
+  border-radius: 5px; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s;
+}
+#myWork-Grid button {
+  margin-bottom: 20px; 
+  font-family: 'Livvic', sans-serif;
+}
+
+footer {
+  background-color: #6F8F71;
+  text-align: center;
+}
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  display: inline-block;
+  margin-right: 70px; 
+  font-family: "Krub", sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .heroImg {
+    flex-direction: column;
+  }
+  .skillContainer {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  #myWork-Grid {
+    flex-direction: column;
+  }
+  .flexContainer {
+    flex-direction: column;
+  }
+  .flexContainer .flex-child {
+    width: 100%;
+  }
+  .gridContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}

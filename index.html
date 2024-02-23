@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Link CSS to HTML</title>
+        <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Livvic&display=swap" rel="stylesheet">  
+</head>
+    <body>
+     <header>
+            <div class="inline-block logo">
+                <img src="images/Logo.png" alt="Logo" width="100">
+            </div>
+            <nav class="inline-block">
+                <ul>
+                    <li class="inline-block">About</li>
+                    <li class="inline-block">Skills</li>
+                    <li class="inline-block">Work</li>
+                    <li class="inline-block">Contact</li>
+                </ul>
+            </nav>
+        </header>
+        <section class="heroImg">
+             <div class="content">
+                <h1>Sarah Stresnak</h1>
+                 <h3>Connecting Illustration, Design, and User Experience</h3>
+                <p>Using a  multidisciplinary approach enhances my ability to think outside the box, ensuring that my designs exceed user expectations. 
+                    My history in illustration and a passion for creating meaningful and visually compelling experiences, I've cultivated a strong eye for design that goes beyond aesthetics.</p>                 
+                <button>Download Resume</button>
+            </div>
+            <div class="image">
+            <img src="images/313857190_5859192344170699_907379545481401654_n.jpg">
+            </div>
+        </section>
+        <!--My Skills section coded using CSS Flex-->
+<section id="mySkills">
+    <div class="skillContainer">
+        <div class="skillCard">
+            <img src="images/dataicon.png" alt="Icon for Skill 1">
+            <h3>Data Synthesis and Analysis </h3>
+            <p>When working in UX/UI data synthesis and analysis are critical skills involving the extraction of meaningful insights from user interactions and behavior. By developing the skills of synthesizing data it helps designers gain insights and make informed decisions, refined user experiences, and iteratively improve interfaces based on evidence, ultimately enhancing the overall effectiveness and satisfaction of digital products.
+            </p>
+        </div>
+        <div class="skillCard">
+            <img src="images/prototypingicon.png" alt="Icon for Skill 2">
+            <h3>Prototyping</h3>
+            <p>Prototyping in UX/UI is a crucial skill that involves creating interactive models of digital models to help visualize and test design concepts. Adeptness in prototyping is crucial because it validates ideas, gathers user feedback early in the design process, and can help iteratively refine the user experience, ensuring the final product aligns seamlessly with user expectations and goals.</p>
+        </div>
+        <div class="skillCard">
+            <img src="images/wireframeicon.png" alt="Icon for Skill 3">
+            <h3>Wireframes and Page Layout</h3>
+            <p>Proficiency in wireframing and page layout is essential for designing the structural foundation of digital interfaces. The skill involves creating detailed blueprints that outline the arrangement of elements on a page, guiding the development process and ensuring a well-organized, user-centric layout that optimizes usability and navigation.</p>
+        </div>
+    </div>
+</section>
+ <!--  My Work section coded using CSS flex -->
+<section id="myWork-Grid">
+    <div class="project-card">
+        <div class="project--details">
+            <h2>Solace Orphanage Website Redesign</h2>
+            <p>Our team was tasked with redesigning a nonprofit website and we chose a underfunded orphanage that a teammate had a connection too. This challenge worked step by step with the stakeholders to redesign the website into a clean credible website that users love.</p>
+            <button>View Case Study</button>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project--details">
+            <h2>NASA Website Redesign</h2>
+            <p>When redesigning the NASA website we wanted to streamline content and accessibility for users. The current website was discovered to be a stream of unorganized data and by reorganizing the data, users were able to find information quickly. By completing these those goals it boosted the accessibility on NASA’s website.</p>
+            <button>View Case Study</button>
+        </div>
+    </div>
+    <div class="project-card">
+        <div class="project--details">
+            <h2>Keyed Up Mobile App</h2>
+            <p>For this project we were tasks to make a new mobile app and as a team we were thinking of ways we could improve people's lives. With Keyed up it solves the modern problem of cabinets being locked in retail setting. Allowing companies to safely allow customers to still grab their own products.</p>
+            <button>View Case Study</button>
+        </div>
+    </div>
+    <button id="view-all-button">View All Projects</button>
+</section>
+
+        <footer>
+            <ul>
+                <li class="inline-block">About</li>
+                <li class="inline-block">Skills</li>
+                <li class="inline-block">Work</li>
+                <li class="inline-block">Contact</li>
+            </ul>
+        </footer>
+    </body>
+</html>
