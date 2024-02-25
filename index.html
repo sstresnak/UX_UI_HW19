@@ -37,25 +37,37 @@
         <!--My Skills section coded using CSS Flex-->
 <section id="mySkills">
     <div class="skillContainer">
-        <div class="skillCard">
+        <div class="skillCard" id="skill1">
             <img src="images/dataicon.png" alt="Icon for Skill 1">
             <h3>Data Synthesis and Analysis </h3>
-            <p>When working in UX/UI data synthesis and analysis are critical skills involving the extraction of meaningful insights from user interactions and behavior. By developing the skills of synthesizing data it helps designers gain insights and make informed decisions, refined user experiences, and iteratively improve interfaces based on evidence, ultimately enhancing the overall effectiveness and satisfaction of digital products.
-            </p>
         </div>
-        <div class="skillCard">
+        <div class="skillCard" id="skill2">
             <img src="images/prototypingicon.png" alt="Icon for Skill 2">
             <h3>Prototyping</h3>
-            <p>Prototyping in UX/UI is a crucial skill that involves creating interactive models of digital models to help visualize and test design concepts. Adeptness in prototyping is crucial because it validates ideas, gathers user feedback early in the design process, and can help iteratively refine the user experience, ensuring the final product aligns seamlessly with user expectations and goals.</p>
         </div>
-        <div class="skillCard">
+        <div class="skillCard" id="skill3">
             <img src="images/wireframeicon.png" alt="Icon for Skill 3">
             <h3>Wireframes and Page Layout</h3>
-            <p>Proficiency in wireframing and page layout is essential for designing the structural foundation of digital interfaces. The skill involves creating detailed blueprints that outline the arrangement of elements on a page, guiding the development process and ensuring a well-organized, user-centric layout that optimizes usability and navigation.</p>
         </div>
     </div>
+    <div class="popup" id="popupSkill1">
+        <h4>Data Synthesis and Analysis</h4>
+        <p>When working in UX/UI data synthesis and analysis are critical skills involving the extraction of meaningful insights from user interactions and behavior. By developing the skills of synthesizing data it helps designers gain insights and make informed decisions, refined user experiences, and iteratively improve interfaces based on evidence, ultimately enhancing the overall effectiveness and satisfaction of digital products.
+        </p>
+        <button class="closeButton">X</button>
+    </div>
+    <div class="popup" id="popupSkill2">
+        <h4>Prototyping</h4>
+        <p>Prototyping in UX/UI is a crucial skill that involves creating interactive models of digital models to help visualize and test design concepts. Adeptness in prototyping is crucial because it validates ideas, gathers user feedback early in the design process, and can help iteratively refine the user experience, ensuring the final product aligns seamlessly with user expectations and goals.</p>
+        <button class="closeButton">X</button>
+    </div>
+    <div class="popup" id="popupSkill3">
+        <h4>Wireframing and Page Layout</h4>
+        <p>Proficiency in wireframing and page layout is essential for designing the structural foundation of digital interfaces. The skill involves creating detailed blueprints that outline the arrangement of elements on a page, guiding the development process and ensuring a well-organized, user-centric layout that optimizes usability and navigation.</p>
+        <button class="closeButton">X</button>
+    </div>
 </section>
- <!--  My Work section coded using CSS flex -->
+
 <section id="myWork-Grid">
     <div class="project-card">
         <div class="project--details">
@@ -92,4 +104,5 @@
     </body>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
     <script src="js/index.js"></script>
+
 </html>
