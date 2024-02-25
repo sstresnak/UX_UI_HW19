@@ -12,6 +12,7 @@ header {
   color: white;
 }
 
+
 .logo {
   width: 23%;
   padding: 1%;
@@ -268,7 +269,16 @@ footer ul li {
   font-family: "Krub", sans-serif;
   color: white;
 }
-
+.shadow {
+  position: absolute; /* Position absolutely */
+  top: 5px; /* Adjust vertical position */
+  left: 5px; /* Adjust horizontal position */
+  background-color: #000000; /* Shadow color */
+  opacity: 0.3; /* Adjust opacity for desired darkness */
+  width: 100%; /* Take full width */
+  height: 100%; /* Take full height */
+  z-index: -1; /* Move below main element */
+  
 @media only screen and (max-width: 600px) {
   .heroImg {
     flex-direction: column;
